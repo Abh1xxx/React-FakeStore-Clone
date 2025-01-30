@@ -12,14 +12,15 @@ function Cards({ data }) {
           <Card.Text>
            {data.description.slice(0,100)}...
           </Card.Text>
-          <div className="d-flex justify-content-between align-items-center">
+         
+          
+        </Card.Body>
+         <div className="d-flex justify-content-between align-items-center">
           {/* d-flex justify-content-between align-items-center */}
           <p className='mb-0 fw-bold'>${data.price}</p>
           
           <Button variant="primary" className='p-1 rounded-0'>View Details</Button>
           </div>
-          
-        </Card.Body>
       </Card>
     
   )
